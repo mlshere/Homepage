@@ -27,16 +27,23 @@ img{
     max-width: 100%;
     height: auto;
 }
+/* Brand colors 
+Primary color: #748283
+Secondary color: #7E837E
+Terciary/acent color: #197166142
+Dark neutral color: #233251222
+Light neutral color: #252252251
+*/
 a { 
     font-size: 20px;
     text-decoration: none;
 }
 a:link {
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
 }
 a:visited {
-    color: black;
+    color: whitesmoke;
     text-decoration: underline;
 }
 a:active {
@@ -52,69 +59,69 @@ a:focus {
 
 .button {
     display: inline-block;
-    background-color: blue;
+    background-color: #7E837E;
     color: whitesmoke;
     font-size: 16px;
     padding: 10px 20px;
 }
 .button:hover {
-    background-color: blue;
+    background-color: #7E837E;
     opacity: 0.6;
     text-decoration: none;
     color: whitesmoke;
 }
 .button:active {
-    background-color: blue;
+    background-color: #7E837E;
     color: whitesmoke;
 }
 
 .button:focus {
-    background-color: blue;
+    background-color: #7E837E;
     color: whitesmoke;
 }
 
 .button-cv {
     display: inline-block;
-    background-color: red;
+    background-color: #7E837E;
     color: white;
     font-size: 16px;
     padding: 10px 20px;
 }
 .button-cv:hover {
-    background-color: red;
+    background-color: #7E837E;
     opacity: 0.6;
     text-decoration: none;
     color: whitesmoke;
 }
 .button-cv:active {
-    background-color: red;
+    background-color: #7E837E;
     color: whitesmoke;
 }
 
 .button-cv:focus {
-    background-color: blue;
+    background-color: #7E837E;
     color: whitesmoke;
 }
 .button-email {
     display: inline-block;
-    background-color: orange;
+    background-color: #7E837E;
     color: white;
     font-size: 16px;
     padding: 10px 20px;
 }
 .button-email:hover {
-    background-color: orange;
+    background-color: #7E837E;
     opacity: 0.6;
     text-decoration: none;
     color: whitesmoke;
 }
 .button-email:active {
-    background-color: orange;
+    background-color: #7E837E;
     color: whitesmoke;
 }
 
 .button-email:focus {
-    background-color: blue;
+    background-color: #7E837E;
     color: whitesmoke;
 }
 
