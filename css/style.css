@@ -117,3 +117,18 @@ a:focus {
     background-color: blue;
     color: whitesmoke;
 }
+
+.button-prototype {
+    position: relative;
+    display: inline-block;
+}
+
+.button-prototype {
+    position: relative;
+    display: inline-block;
+    color: black;
+    font-size:1.5em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 700;
+}
