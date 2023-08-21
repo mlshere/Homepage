@@ -13,6 +13,12 @@ header {
 * {
     box-sizing: border-box;
 }
+
+div {
+    display: inline-block;
+    width: 100%;
+}
+
 body {
     background-color: white;
     font-family: 'Roboto Slab', serif;
@@ -22,7 +28,11 @@ body {
     color: #232222;
 }
 main {
-    padding-top: 300px;
+    padding-top: 193px;
+    position: static;
+    display: inline-block;
+    width: 100%;
+
 }
 
 footer {
@@ -126,7 +136,7 @@ a:active {
 }
 .logo {
     width: 100%;
-    max-width: 250px;
+    max-width: 100px;
 }
 nav > ul {
     list-style: none;
@@ -176,13 +186,12 @@ nav > ul > li > a {
 
 /* about styling */
 
-#about-title{
+#about-title { 
     display: inline-block;
+    width: 100%;
     text-align: center;
     padding: 10px;
-    margin: 0px auto;
-    width: 100%;
-  
+    margin: 10px auto;
 }
 
 #about-hero .row {
@@ -195,4 +204,93 @@ nav > ul > li > a {
     width: 100%;
     max-width: 400px;
     object-position: center;
+}
+
+#obol-title h1 {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.intro-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+
+.timeline-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+
+.paypal-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+
+.google-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+
+.maria-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.stefan-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.m-userflow-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.s-userflow-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+
+.smerchant-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.sbites-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.sinvestment-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.icons-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.illustrations-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+.elements-img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
+}
+. {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 0px;
 }
