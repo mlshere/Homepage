@@ -4,6 +4,9 @@ header {
     margin: auto 10px;
     border-bottom: 3px solid #7E837E;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: white;
     font-family: 'Roboto Slab', serif;
@@ -144,4 +147,13 @@ a:active {
     text-decoration: underline;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+/* Layout styling */
+
+.container {
+    width: 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
