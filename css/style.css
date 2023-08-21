@@ -1,8 +1,10 @@
 header {
     background-color: #B2AC88;
+    text-align: center;
     padding: 10px 5px 15px 5px;
-    margin: auto 10px;
+    margin: auto;
     border-bottom: 3px solid #7E837E;
+    width: 100%;
 }
 * {
     box-sizing: border-box;
@@ -152,8 +154,38 @@ a:active {
 /* Layout styling */
 
 .container {
-    width: 50%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+#work .row {
+    width: 100%;
+    margin: 25px 0;
+    border-bottom: 1px solid #7E837E;
+}
+
+#hero h1 {
+    text-align: center;
+}
+.logo {
+    width: 100%;
+    max-width: 250px;
+}
+nav > ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 10px 20px;
+    color: #748283;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
