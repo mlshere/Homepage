@@ -4,8 +4,12 @@ header {
     padding: 10px 5px 15px 5px;
     margin: auto;
     border-bottom: 3px solid #7E837E;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
+    position: fixed;
+    display: inline-block;
     width: 100%;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -16,6 +20,19 @@ body {
     font-weight: 300;
     line-height: 1.5;
     color: #232222;
+}
+main {
+    padding-top: 300px;
+}
+
+footer {
+    background-color: #B2AC88;
+    text-align: center;
+    padding: 20px 5px 15px 5px;
+    margin: 20px auto;
+    border-bottom: 3px solid #7E837E;
+    display: inline-block;
+    width: 100%;
 }
     
 h1, h2, h3 {
@@ -90,67 +107,6 @@ a:active {
     color: whitesmoke;
 }
 
-.button-cv {
-    display: inline-block;
-    background-color: #7E837E;
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
-}
-.button-cv:hover {
-    background-color: #7E837E;
-    opacity: 0.6;
-    text-decoration: none;
-    color: whitesmoke;
-}
-.button-cv:focus {
-    background-color: #7E837E;
-    color: whitesmoke;
-}
-.button-cv:active {
-    background-color: #7E837E;
-    color: whitesmoke;
-}
-
-
-.button-email {
-    display: inline-block;
-    background-color: #7E837E;
-    color: white;
-    font-size: 16px;
-    padding: 10px 20px;
-}
-.button-email:hover {
-    background-color: #7E837E;
-    opacity: 0.6;
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.button-email:focus {
-    background-color: #7E837E;
-    color: whitesmoke;
-}
-.button-email:active {
-    background-color: #7E837E;
-    color: whitesmoke;
-}
-
-.button-prototype {
-    position: relative;
-    display: inline-block;
-}
-
-.button-prototype {
-    position: relative;
-    display: inline-block;
-    color: black;
-    font-size:1.5em;
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
 /* Layout styling */
 
 .container {
@@ -188,4 +144,55 @@ nav > ul > li > a {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+#hero {
+    background-color: white;
+    padding: 20px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.obol-img {
+    width: 100%;
+    max-width: 400px;
+    float: left;
+}
+
+.basil-img {
+    width: 100%;
+    max-width: 400px;
+    float: left;
+}
+
+
+.social {
+    background-color: #B2AC88;
+    text-align: center;
+    padding: 20px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+/* about styling */
+
+#about-title{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+    width: 100%;
+  
+}
+
+#about-hero .row {
+    background-color: white;
+    padding: 20px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.me-img {
+    width: 100%;
+    max-width: 400px;
+    object-position: center;
 }
