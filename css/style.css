@@ -22,7 +22,7 @@ body {
     color: #232222;
 }
 main {
-    padding-top: 193px;
+    padding-top: 140px;
 }
 
 footer {
@@ -103,6 +103,11 @@ a:active {
     color: whitesmoke;
 }
 
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 /* Layout styling */
 
 .container {
@@ -190,10 +195,25 @@ nav > ul > li > a {
     display: inline-block;
     width: 100%;
 }
+
+#about-hero .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .me-img {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+#about-hero h3 {
+    margin-top: 0;
+}
+#about-hero img {
     width: 100%;
     max-width: 400px;
-    object-position: center;
 }
 
 /* project styling */
@@ -348,7 +368,7 @@ nav > ul > li > a {
 @media only screen and (min-width: 640px) {
     header {
         text-align: unset;
-        padding: 20px 0 13px;
+        padding: 20px 0 10px;
     }
     nav {
         width: auto;
@@ -360,19 +380,44 @@ nav > ul > li > a {
     }
     [class*="col-"] {
         float: left;
+        padding: 0 5px 0 5px;
+        margin: 0 10px 0 10px;
       }
     .row::after {
         content: "";
         clear: both;
         display: table;
     }
+    .column {
+        float: right;
+        width: 100%;
+        padding: 10px;
+        margin-right: 10px;
+   }
 }
 
-/* Lrge devices (1024px and larger) */
+/* Large devices (1024px and larger) */
 @media only screen and (min-width: 1024px) {
-    
+    header {
+        font-size: 24px;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    .col-md-7 {
+        width: 60%;
+    }
 }
 
 /*x-large devices (1440px and larger) */
 @media only screen and (min-width: 1440px) {
+    header {
+        font-size: 30px;
+    }
+    nav {
+        margin-top: 20px;
+    }
+    .col-md-7 {
+        width: 70%;
+    }
 }
