@@ -203,8 +203,11 @@ nav > ul > li > a:hover::after {
     max-width: 400px;
     float: left;
 }
-
-
+.animation-img {
+    width: 100%;
+    max-width: 400px;
+    float: left;
+}
 .social {
     background-color: #B2AC88;
     text-align: center;
@@ -451,7 +454,7 @@ nav > ul > li > a:hover::after {
     overflow: hidden;
     background: linear-gradient(45deg, #67869b, #30D5C8);
     background-size: 200% 200%;
-    animation: gradientAnimation 15s ease infinite;
+    animation: animation 15s ease infinite;
 
 }
 
@@ -492,21 +495,17 @@ nav > ul > li > a:hover::after {
   
 }
 
-/*************swing************/
 @keyframes swing {
     0% { transform: rotate(10deg); }
     100% { transform: rotate(-10deg); }
 }
 
-
-/*************swing hair************/
 @keyframes swinghair {
     0% { transform: rotate(6deg); }
     100% { transform: rotate(-6deg); }
 }
 
-
-@keyframes gradientAnimation {
+@keyframes animation {
    0%   {
         background-position: 0% 50%;
     }
@@ -541,12 +540,6 @@ nav > ul > li > a:hover::after {
         clear: both;
         display: table;
     }
-    .column {
-        float: right;
-        width: 100%;
-        padding: 10px;
-        margin-right: 10px;
-   }
 }
 
 /* Large devices (1024px and larger) */
@@ -557,8 +550,11 @@ nav > ul > li > a:hover::after {
     nav {
         margin-top: 10px;
     }
-    .col-md-7 {
+    .col-lg-7 {
         width: 60%;
+    }
+    .col-lg-5 {
+        width: 40%;
     }
 }
 
