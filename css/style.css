@@ -75,6 +75,8 @@ a:active {
     color: green;
     text-decoration: none;
 }
+
+
 .button {
     display: inline-block;
     background-color: #7E837E;
@@ -161,9 +163,35 @@ nav > ul > li > a {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
 }
 
+nav > ul > li > a:hover::before, 
+nav > ul > li > a:hover::after {
+    content: '';
+    position:absolute;
+    width: 0;
+    height: 2px;
+    opacity: 1;
+    background-color: #748283;
+    transition: all 0.3s ease-in-out;
+}
 
+nav > ul > li > a:before {
+    top: 0px;
+    left: 0px;
+}
+
+nav > ul > li > a:after {
+    bottom: 0px;
+    right: 0px;
+}
+
+nav > ul > li > a:hover::before,
+nav > ul > li > a:hover::after {
+    width: 100%;
+}
 .obol-img {
     width: 100%;
     max-width: 400px;
@@ -371,11 +399,123 @@ nav > ul > li > a {
     text-align: center;
 }
 
+.error-img {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+}
 /* animation styling */
+
 #about-picture .svg {
     width: 100%;
     max-width: 400px;
     height: auto;
+    float: left;
+}
+
+@keyframes color-change {
+    from {fill: #edc655;}
+    to {fill: #f76414;}
+}
+.sun {
+    animation: 2s color-change infinite alternate linear;
+    /* animation schema 
+    animation-duration: 2s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    */
+}
+
+@keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px, 50px)}
+}
+.cloud-front {
+    animation: 30s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+    from {transform: translate(446px, 48px)}
+    to {transform: translate(100px, 48px)}
+}
+
+.cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear
+}
+
+#animation-main main {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(45deg, #67869b, #30D5C8);
+    background-size: 200% 200%;
+    animation: gradientAnimation 15s ease infinite;
+
+}
+
+#not-found body {
+   background-color:#178b28;
+   background: radial-gradient(at 50% -20%, #908392, #139024) fixed;
+}
+
+
+#handboy
+{
+    animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 98% 98%;
+    transform-box: fill-box;
+    
+}
+
+
+#girllight
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 0% 97%;
+    transform-box: fill-box;
+}
+
+#hairgirl
+{
+    animation: swinghair ease-in-out 1.3s infinite alternate;
+   transform-origin: 60% 0%;
+    transform-box: fill-box;
+  
+}
+
+#zero
+{
+  transform-origin:bottom;
+  transform-box:fill-box;
+  
+}
+
+/*************swing************/
+@keyframes swing {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+
+/*************swing hair************/
+@keyframes swinghair {
+    0% { transform: rotate(6deg); }
+    100% { transform: rotate(-6deg); }
+}
+
+
+@keyframes gradientAnimation {
+   0%   {
+        background-position: 0% 50%;
+    }
+    50%  {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+   }
 }
 
 /* Medium devices (640px and larger) */
