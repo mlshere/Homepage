@@ -460,6 +460,15 @@ nav > ul > li > a {
         display: table;
     }
           */
+
+    #prototype .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 1em;
+        padding: 20px;
+    }
 }
 
 /* Large devices (1024px and larger) */
