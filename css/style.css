@@ -7,12 +7,12 @@ header {
     width: 100%;
 }
 
-header .container {
+/*header .container {
     display: flex;
     gap: 1em;
     flex-direction: column;
     align-items: center;
-}
+}*/
 * {
     box-sizing: border-box;
 }
@@ -26,7 +26,7 @@ body {
     color: #232222;
 }
 main {
-    padding-top: 179.44px;
+    padding-top: 114.44px;
 }
 
 footer {
@@ -42,7 +42,7 @@ h1, h2, h3 {
 h1 {
     font-size: 2.75em;
     font-weight: 700;
-
+    text-align: center;
 }
 h2 {
     font-size: 2.25em;
@@ -158,6 +158,7 @@ a:active {
 }
 .logo {
     display: inline-block;
+    max-width: 150px;
     width: 80px;
 }
 nav > ul {
@@ -171,6 +172,8 @@ nav > ul > li {
     display: inline-block;
 }
 
+
+
 nav > ul > li > a {
     padding: 10px 20px;
     color: #748283;
@@ -181,6 +184,7 @@ nav > ul > li > a {
     overflow: hidden;
     text-decoration: none;
 }
+
 
 .social {
     background-color: #B2AC88;
@@ -423,6 +427,33 @@ nav > ul > li > a {
         background-position: 0% 50%;
    }
 }
+@media (max-width: 640px) {
+    .navtoggle li:not(:last-child) {
+      display: none;
+    }
+    .navtoggle li:not(:last-child) {
+        display: none;
+    }
+    .navtoggle, .navtoggle.responsive {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: center;
+    }
+    .navtoggle.responsive nav {
+        padding: 24px 0 0;
+      }
+      .navtoggle.responsive li {
+        display: block;
+        padding: 10px 0;
+        border-top: 1px solid rgba(255, 127, 80, 0.5);
+      }
+      .navtoggle.responsive li:last-child {
+        padding: 0 0 10px;
+      }
+}
 
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
@@ -449,7 +480,24 @@ nav > ul > li > a {
     .col-md-6 {
         width: 100%;
     }
-   /* [class*="col-"] {
+
+    .logo {
+        min-width: 80px;
+    }
+
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+      }
+      .navtoggle li:last-child {
+        display: none;
+      }
+
+    .navtoggle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+       /* [class*="col-"] {
         float: left;
         padding: 0 10px 0 10px;
       }
@@ -480,7 +528,7 @@ nav > ul > li > a {
         margin-top: 10px;
     }
     main {
-        padding-top: 113.94px
+        padding-top: 113.94px;
     }
     .col-lg-7 {
         width: 100%;

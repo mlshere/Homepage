@@ -10,18 +10,22 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/36a2fb29eb.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <div class="container">
-                <a href="index.html" class="logo"><img src="img/logo-black.svg" alt="logo Sherezade Maqueda"></a>
-                <nav>
-                    <ul>  
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>  
-                </nav>
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html" class="logo"><img src="img/logo-black.svg" alt="logo Sherezade Maqueda"></a>
+                    <nav>
+                        <ul>  
+                            <li><a href="index.html">Work</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                        </ul>  
+                    </nav>
+                </div>
             </div>
         </header>
         <main>
@@ -121,6 +125,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
