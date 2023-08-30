@@ -448,7 +448,7 @@ nav > ul > li > a {
         position: relative;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
     .navtoggle.responsive nav {
@@ -463,6 +463,25 @@ nav > ul > li > a {
         padding: 0 0 10px;
       }
 
+.navtoggle li .icon{
+    position: absolute;
+    padding-right: 0px;
+}
+
+/* nav {
+    display: inline-block;
+    width: 100%;
+  }
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+*/
+nav > ul {
+    margin: 1em 0;
+    display: flex;
+  }
 
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
