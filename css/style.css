@@ -164,15 +164,8 @@ a:active {
 nav > ul {
     list-style: none;
     padding: 0;
-    display: inline-block;
-    width: 100%;
     margin: 0;
 }
-nav > ul > li {
-    display: inline-block;
-}
-
-
 
 nav > ul > li > a {
     padding: 10px 20px;
@@ -447,19 +440,15 @@ nav > ul > li > a {
         background-position: 0% 50%;
    }
 }
-@media (max-width: 640px) {
+
     .navtoggle li:not(:last-child) {
       display: none;
     }
-    .navtoggle li:not(:last-child) {
-        display: none;
-    }
-    .navtoggle, .navtoggle.responsive {
+    .navtoggle {
         position: relative;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .navtoggle.responsive nav {
@@ -473,7 +462,7 @@ nav > ul > li > a {
       .navtoggle.responsive li:last-child {
         padding: 0 0 10px;
       }
-}
+
 
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
