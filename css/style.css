@@ -468,16 +468,6 @@ nav > ul > li > a {
     padding-right: 0px;
 }
 
-/* nav {
-    display: inline-block;
-    width: 100%;
-  }
-
-nav > ul {
-    list-style-type: none;
-    padding: 0;
-  }
-*/
 nav > ul {
     margin: 1em 0;
     display: flex;
