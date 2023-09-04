@@ -447,7 +447,7 @@ nav > ul > li > a {
     .navtoggle {
         position: relative;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
@@ -475,12 +475,12 @@ nav > ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    flex-direction: row;
+    flex-direction: column;
 }
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
     header .container {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
@@ -516,9 +516,21 @@ nav > ul {
 
     .navtoggle {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
+
+    .nav ul {
+        flex-direction: row;
+    }
+
+    #ideation .picture {
+        display: flex;
+        overflow: overlay;
+    }
+
+  
        /* [class*="col-"] {
         float: left;
         padding: 0 10px 0 10px;
@@ -597,10 +609,7 @@ nav > ul {
     .intro-img {
         padding: 20px 0px;
     }
-    #ideation .picture {
-        display: flex;
-        overflow: overlay;
-    }
+
     #user-persona .column-img {
         display: flex;
         flex-direction: row;
