@@ -1,5 +1,6 @@
 header {
-    background-color: #B2AC88;
+    background-color: #A52A2A
+    ;
     padding: 10px 0px;
     border-bottom: 3px solid #7E837E;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
@@ -71,7 +72,7 @@ a:visited {
 }
 a:hover, 
 a:focus {
-    color: purple;
+    color: yellowgreen;
     text-decoration: none;
 }
 a:active {
@@ -82,7 +83,7 @@ a:active {
 
 .button {
     display: inline-block;
-    background-color: #7E837E;
+    background-color: #A52A2A;
     color: whitesmoke;
     font-size: 16px;
     font-weight: 400;
@@ -127,6 +128,10 @@ a:active {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.icon {
+    color: whitesmoke
 }
 #work .row {
     width: 100%;
