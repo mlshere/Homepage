@@ -571,13 +571,13 @@ nav>ul {
 
     .navtoggle {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
 
-    .nav ul {
-        flex-direction: row;
+    nav ul {
+        flex-direction: column;
     }
 
     #ideation .picture {
