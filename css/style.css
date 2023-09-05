@@ -1,19 +1,12 @@
 header {
-    background-color: #A52A2A
-    ;
+    background-color: #A52A2A;
     padding: 10px 0px;
     border-bottom: 3px solid #7E837E;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
     position: fixed;
     width: 100%;
 }
 
-/*header .container {
-    display: flex;
-    gap: 1em;
-    flex-direction: column;
-    align-items: center;
-}*/
 * {
     box-sizing: border-box;
 }
@@ -26,6 +19,7 @@ body {
     line-height: 1.5;
     color: #232222;
 }
+
 main {
     padding-top: 114.44px;
 }
@@ -36,26 +30,33 @@ footer {
     padding: 20px 0px 20px 0px;
     width: 100%;
 }
-    
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     line-height: 1.3;
 }
+
 h1 {
     font-size: 2.75em;
     font-weight: 700;
     text-align: center;
 }
+
 h2 {
     font-size: 2.25em;
     font-weight: 700;
 }
-h3 { 
+
+h3 {
     font-size: 1.75em;
     font-weight: 400;
 }
-img{
+
+img {
     width: 100%;
 }
+
 /* Brand colors 
 Primary color: #748283
 Secondary color: #7E837E
@@ -63,23 +64,25 @@ Terciary/acent color: #646161
 Dark neutral color: #233251222
 Light neutral color: #252252251
 */
-a { 
+a {
     color: whitesmoke;
 }
+
 a:visited {
-    color:  whitesmoke;
+    color: whitesmoke;
     text-decoration: none;
 }
-a:hover, 
+
+a:hover,
 a:focus {
     color: yellowgreen;
     text-decoration: none;
 }
+
 a:active {
     color: green;
     text-decoration: none;
 }
-
 
 .button {
     display: inline-block;
@@ -88,12 +91,13 @@ a:active {
     font-size: 16px;
     font-weight: 400;
     padding: 10px 20px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.5); 
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 1px solid black;
     transition-duration: 0.2s;
     transition-property: opacity;
     text-decoration: none;
 }
+
 .button:visited {
     display: inline-block;
     background-color: #7E837E;
@@ -101,16 +105,19 @@ a:active {
     font-size: 16px;
     padding: 10px 20px;
 }
+
 .button:hover {
     background-color: #7E837E;
     opacity: 0.6;
     text-decoration: none;
     color: whitesmoke;
 }
+
 .button:focus {
     background-color: #7E837E;
     color: whitesmoke;
 }
+
 .button:active {
     background-color: #7E837E;
     color: whitesmoke;
@@ -120,7 +127,8 @@ a:active {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
 /* Layout styling */
 
 .container {
@@ -133,6 +141,7 @@ a:active {
 .icon {
     color: whitesmoke
 }
+
 #work .row {
     width: 100%;
     margin: 25px 0;
@@ -150,8 +159,9 @@ a:active {
     padding: 20px 0px;
     display: inline-block;
     width: 100%;
-    
+
 }
+
 #hero h1 {
     text-align: center;
 }
@@ -161,13 +171,14 @@ a:active {
     font-size: 60%;
     margin-top: 1em;
 }
+
 .logo {
     display: inline-block;
     max-width: 150px;
     width: 80px;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
     padding: 10px 20px;
     color: #748283;
     font-size: 16px;
@@ -177,7 +188,6 @@ nav > ul > li > a {
     overflow: hidden;
     text-decoration: none;
 }
-
 
 .social {
     background-color: #B2AC88;
@@ -189,7 +199,7 @@ nav > ul > li > a {
 
 /* about styling */
 
-#about-title { 
+#about-title {
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -210,6 +220,7 @@ nav > ul > li > a {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 .me-img {
     display: block;
     border-radius: 120px;
@@ -220,6 +231,7 @@ nav > ul > li > a {
 #about-hero h3 {
     margin-top: 0;
 }
+
 #about-hero img {
     width: 100%;
     max-width: 400px;
@@ -259,14 +271,17 @@ nav > ul > li > a {
     width: 100%;
     padding: 20px 0px;
 }
+
 .stefan-img {
     width: 100%;
     padding: 20px 0px;
 }
+
 .m-userflow-img {
     width: 100%;
     padding: 20px 0px;
 }
+
 .s-userflow-img {
     width: 100%;
     padding: 20px 0px;
@@ -276,26 +291,32 @@ nav > ul > li > a {
     width: 100%;
     padding: 20px 0px;
 }
+
 .sbites-img {
     width: 100%;
     padding: 20px 0px;
 }
+
 .sinvestment-img {
     width: 100%;
     padding: 20px 0px;
 }
+
 .icons-img {
     width: 100%;
     padding: 20px 0px;
 }
+
 .illustrations-img {
     width: 100%;
     padding: 20px 0px;
 }
+
 .elements-img {
     width: 100%;
     padding: 20px 0px;
 }
+
 #navigation .img {
     padding: 20px 0px;
 }
@@ -303,7 +324,8 @@ nav > ul > li > a {
 #prototype .container {
     display: inline-block;
     width: 100%;
-    text-align: center;display: flex;
+    text-align: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -319,9 +341,9 @@ nav > ul > li > a {
     bottom: 20px;
     right: 20px;
     display: none;
-  }
-  
-  #scroll-to-top-btn {
+}
+
+#scroll-to-top-btn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #333;
@@ -329,8 +351,8 @@ nav > ul > li > a {
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
+}
+
 /* animation styling */
 
 #about-picture .svg {
@@ -341,9 +363,15 @@ nav > ul > li > a {
 }
 
 @keyframes color-change {
-    from {fill: #edc655;}
-    to {fill: #f76414;}
+    from {
+        fill: #edc655;
+    }
+
+    to {
+        fill: #f76414;
+    }
 }
+
 .sun {
     animation: 2s color-change infinite alternate linear;
     /* animation schema 
@@ -356,16 +384,27 @@ nav > ul > li > a {
 }
 
 @keyframes cloud-move {
-    from {transform: translate(0,50px);}
-    to {transform: translate(200px, 50px)}
+    from {
+        transform: translate(0, 50px);
+    }
+
+    to {
+        transform: translate(200px, 50px)
+    }
 }
+
 .cloud-front {
     animation: 30s cloud-move infinite alternate linear;
 }
 
 @keyframes cloud-move-reverse {
-    from {transform: translate(446px, 48px)}
-    to {transform: translate(100px, 48px)}
+    from {
+        transform: translate(446px, 48px)
+    }
+
+    to {
+        transform: translate(100px, 48px)
+    }
 }
 
 .cloud-back {
@@ -383,100 +422,113 @@ nav > ul > li > a {
 }
 
 #not-found body {
-   background-color:#178b28;
-   background: radial-gradient(at 50% -20%, #908392, #139024) fixed;
+    background-color: #178b28;
+    background: radial-gradient(at 50% -20%, #908392, #139024) fixed;
 }
 
 
-#handboy
-{
+#handboy {
     animation: swing ease-in-out 1.3s infinite alternate;
     transform-origin: 98% 98%;
     transform-box: fill-box;
-    
+
 }
 
 
-#girllight
-{
-   animation: swing ease-in-out 1.3s infinite alternate;
+#girllight {
+    animation: swing ease-in-out 1.3s infinite alternate;
     transform-origin: 0% 97%;
     transform-box: fill-box;
 }
 
-#hairgirl
-{
+#hairgirl {
     animation: swinghair ease-in-out 1.3s infinite alternate;
-   transform-origin: 60% 0%;
+    transform-origin: 60% 0%;
     transform-box: fill-box;
-  
+
 }
 
-#zero
-{
-  transform-origin:bottom;
-  transform-box:fill-box;
-  
+#zero {
+    transform-origin: bottom;
+    transform-box: fill-box;
+
 }
 
 @keyframes swing {
-    0% { transform: rotate(10deg); }
-    100% { transform: rotate(-10deg); }
+    0% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
 }
 
 @keyframes swinghair {
-    0% { transform: rotate(6deg); }
-    100% { transform: rotate(-6deg); }
+    0% {
+        transform: rotate(6deg);
+    }
+
+    100% {
+        transform: rotate(-6deg);
+    }
 }
 
 @keyframes animation {
-   0%   {
+    0% {
         background-position: 0% 50%;
     }
-    50%  {
+
+    50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
-   }
+    }
 }
 
-    .navtoggle li:not(:last-child) {
-      display: none;
-    }
-    .navtoggle {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    .navtoggle.responsive nav {
-        padding: 24px 0 0;
-        width: 100%;
-      }
-      .navtoggle.responsive li {
-        display: block;
-        padding: 10px 0;
-        border-top: 1px solid rgba(255, 127, 80, 0.5);
-      }
-      .navtoggle.responsive li:last-child {
-        padding: 0 0 10px;
-      }
+.navtoggle li:not(:last-child) {
+    display: none;
+}
 
-.navtoggle li .icon{
+.navtoggle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+    width: 100%;
+}
+
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+}
+
+.navtoggle li .icon {
     position: absolute;
     right: 0px;
     top: 24px
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
     flex-direction: row;
 }
+
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
     header .container {
@@ -488,6 +540,7 @@ nav > ul {
     main {
         padding-top: 104.94
     }
+
     #work .row {
         display: flex;
         gap: 2em;
@@ -499,6 +552,7 @@ nav > ul {
         align-items: flex-start;
         justify-content: center;
     }
+
     .col-md-6 {
         width: 100%;
     }
@@ -509,10 +563,11 @@ nav > ul {
 
     .navtoggle li:not(:last-child) {
         display: inline-block;
-      }
-      .navtoggle li:last-child {
+    }
+
+    .navtoggle li:last-child {
         display: none;
-      }
+    }
 
     .navtoggle {
         display: flex;
@@ -529,12 +584,23 @@ nav > ul {
         display: flex;
         overflow: overlay;
     }
+
     .swot {
         display: flex;
         overflow: overlay;
     }
-  
-       /* [class*="col-"] {
+
+    .persona {
+        display: flex;
+        overflow: overlay;
+    }
+
+    .userflow {
+        display: flex;
+        overflow: overlay;
+    }
+
+    /* [class*="col-"] {
         float: left;
         padding: 0 10px 0 10px;
       }
@@ -561,33 +627,39 @@ nav > ul {
     header {
         font-size: 24px;
     }
+
     nav {
         margin-top: 10px;
     }
+
     main {
         padding-top: 113.94px;
     }
+
     .col-lg-7 {
         width: 100%;
     }
+
     .col-lg-5 {
         width: 100%;
     }
+
     #about-hero .row {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: baseline;
     }
+
     #about-hero .row-2 {
         display: flex;
         gap: 2em;
     }
 
-    nav > ul > li > a:hover::before, 
-    nav > ul > li > a:hover::after {
+    nav>ul>li>a:hover::before,
+    nav>ul>li>a:hover::after {
         content: '';
-        position:absolute;
+        position: absolute;
         width: 0;
         height: 2px;
         opacity: 1;
@@ -595,20 +667,21 @@ nav > ul {
         transition: all 0.3s ease-in-out;
     }
 
-    nav > ul > li > a:before {
+    nav>ul>li>a:before {
         top: 0px;
         left: 0px;
     }
 
-    nav > ul > li > a:after {
+    nav>ul>li>a:after {
         bottom: 0px;
         right: 0px;
     }
 
-    nav > ul > li > a:hover::before,
-    nav > ul > li > a:hover::after {
+    nav>ul>li>a:hover::before,
+    nav>ul>li>a:hover::after {
         width: 100%;
     }
+
     .intro-img {
         padding: 20px 0px;
     }
@@ -621,6 +694,7 @@ nav > ul {
         width: 50%;
         height: 50%;
     }
+
     #user-persona .column-userflow {
         display: flex;
         flex-direction: row;
@@ -643,16 +717,18 @@ nav > ul {
         gap: 2em;
 
     }
+
     #navigation .column {
         width: 70%;
     }
+
     #navigation .row {
         display: flex;
         gap: 2em;
         flex-direction: row;
         align-items: flex-start
     }
-    
+
     #navigation .column {
         display: flex;
         flex-direction: column;
@@ -668,10 +744,11 @@ nav > ul {
     header {
         font-size: 30px;
     }
-    
+
     nav {
         margin-top: 20px;
     }
+
     .col-md-7 {
         width: 70%;
     }
